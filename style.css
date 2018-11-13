@@ -182,9 +182,9 @@ h6 {
 .jumbotron .container {
     height: 550px;
     padding: 0;
-    background-image: url('Img/bg4.png');
+    background-image: url('Img/bg8.png');
     background-size: 700px;
-    background-position: 108% 40%;
+    background-position: 103% 40%;
     background-repeat: no-repeat;
 
     -webkit-animation: backgroundScroll .2s linear 1;
@@ -197,9 +197,9 @@ h6 {
 }
 @keyframes backgroundScroll {
     from {
-        background-position: 108% -40%;}
+        background-position: 105% -40%;}
     to {
-        background-position: 108% 45%;}
+        background-position: 105% 45%;}
 }
 
 .display-4 {
@@ -320,6 +320,8 @@ h6 {
     background-repeat: no-repeat;
     height: 700px;
 }
+
+
 .section2 h3{
     padding-top: 6rem;
     padding-bottom: 1.4rem;
