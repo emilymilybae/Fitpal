@@ -16,12 +16,12 @@
    
     <!-- icon -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="fontello-3ea28f3e/css/problem-embedded.css">
     <title>Welcome to FitPal</title>
   </head>
   <body>
       <!-- Navigation Bar -->
-      <div class="jumbotron jumbotron-fluid navbar-default">
+      <div class="jumbotron jumbotron-fluid navbar-default intro animated animated-in undefined">
       <nav class="navbar navbar-expand-lg" id="myTopnav">
           <a class="navbar-brand" href="index.html">
               <img src="Img/logo-3-01.png" width="75" height="auto" alt="logo"> 
@@ -32,16 +32,16 @@
               </button>
               <div class="collapse navbar-collapse flex-row-reverse" id="navbarNav">
                 <ul class="navbar-nav">
-                    <li class="nav-item nav-item__desktop">
+                    <li class="nav-item nav-item__desktop animated animated-in undefined">
                       <a href="index.html">PRODUCTS<span class="sr-only">(current)</span></a>
                     </li>
-                    <li class="nav-item nav-item__desktop" id="work-item">
+                    <li class="nav-item nav-item__desktop  animated animated-in undefined" id="work-item">
                       <a href="#section1">HEALTH MONITORS</a>
                     </li>
-                    <li class="nav-item nav-item__desktop">
+                    <li class="nav-item nav-item__desktop  animated animated-in undefined">
                       <a href="about.html">BLOG</a>
                     </li>
-                    <li class="nav-item nav-item__desktop">
+                    <li class="nav-item nav-item__desktop  animated animated-in undefined">
                       <a href="about.html">ABOUT US</a>
                     </li>
 
@@ -54,14 +54,19 @@
               </div>
         </nav>
           <div class="container">
-            <h1 class="display-4 col-lg-8 col-xs-12 col-md-12">
+            <h1 class="display-4 col-lg-8 col-xs-12 col-md-12" data-aos="fade-down">
               Meet your new fitness<br>
               companion FitPal
               </h1>
-              <p style="color:white; font-size:1.2rem;">A realistic picture of your health and fitness.</p>
-              <div class="col-lg-8 col-xs-12 text-xs-center">
-              <button class="btn btn-primary mt-3">ORDER NOW</button>
-              <button class="btn btn-outline-primary mt-3">DOWNLOAD NOW</button>
+              <p style="color:white; font-size:1.2rem; padding-bottom: 1.5rem;" data-aos="fade-down">A realistic picture of your health and fitness.</p>
+              <div class="col-lg-8 col-xs-12 text-xs-center" data-aos="fade-down">
+                <button class="btn btn-primary shop_btn">
+                  <i class="icon-basket-1"></i> Shop Now</button>
+              <!-- <span class="btn">
+                <img src="Img/Untitled-1-02 copy 2.png" style="width:160px; border: none;"></span>-->
+              <span class="btn"> 
+                <img src="Img/Download_on_the_App_Store_Badge_US-UK_wht_092917-01.svg" style="width:160px; border: none; background-color:transparent;">
+              </span>
             </div>
             </div>
         </div>
@@ -85,7 +90,7 @@
                   </a>
                     BMI                 
                   </li>
-                  <li>
+                  <li id="third">
                     <a href="#">
                     <img src="Img/01-03.png" style="width:75px;"><br>
                   </a>
@@ -97,7 +102,7 @@
                   </a>
                     Body Water                    
                   </li>
-                  <li>
+                  <li id="fifth">
                     <a href="#">
                     <img src="Img/01-05.png" style="width:75px;"><br>
                   </a>
@@ -118,35 +123,35 @@
         <div class="section2">
           <div class="container">
           <div class="row">
-            <div class="offset-md-8 col-md-4 col-xs-12" data-aos="fade-up">
+            <div class="offset-md-6 offset-lg-8 col-lg-4 col-md-6 col-sm-12" data-aos="fade-left">
                 <h3>
                     Discover useful tools in the FitPal app
                 </h3>
                 <p>Use the FitPal app with wearable devices to track activity and reach health goals. Get a clearer picture of your health.
                 </p>
-                <ul class="activity_icons">
-                  <li><a href="#"></a>
-                    <img src="Img/activity_icons-01.png" style="width:60px;"><br>
+                <ul class="activity_icons hidden-sm-down">
+                  <li><a href="#">
+                    <img src="Img/activity_icons-01.png" style="width:60px;"></a><br>
                     Workout
                   </li>
-                  <li><a href="#"></a>
-                    <img src="Img/activity_icons-02.png" style="width:60px;"><br>
+                  <li><a href="#">
+                    <img src="Img/activity_icons-02.png" style="width:60px;"></a><br>
                     Walk
                   </li>
-                  <li><a href="#"></a>
-                    <img src="Img/activity_icons-03.png" style="width:60px;"><br>
+                  <li><a href="#">
+                    <img src="Img/activity_icons-03.png" style="width:60px;"></a><br>
                     Bicycle
                   </li>
-                  <li><a href="#"></a>
-                    <img src="Img/activity_icons-04.png" style="width:60px;"><br>
+                  <li><a href="#">
+                    <img src="Img/activity_icons-04.png" style="width:60px;"></a><br>
                     Water
                   </li>
-                  <li><a href="#"></a>
-                    <img src="Img/activity_icons-05.png" style="width:60px;"><br>
+                  <li><a href="#">
+                    <img src="Img/activity_icons-05.png" style="width:60px;"></a><br>
                     Food
                   </li>
-                  <li><a href="#"></a>
-                    <img src="Img/activity_icons-06.png" style="width:60px;"><br>
+                  <li><a href="#">
+                    <img src="Img/activity_icons-06.png" style="width:60px;"></a><br>
                     Sleep
                   </li>
                 </ul>
@@ -160,7 +165,7 @@
         <div class="section3">
           <div class="container">
             <div class="row">
-              <div class="col-md-4 col-xs-12" data-aos="fade-up">
+              <div class="col-md-4 col-xs-12" data-aos="fade-right">
                   <h3>
                     Set up in minutes with your smartphone
                   </h3>
@@ -168,7 +173,7 @@
                   </p>
               </div>
               <div class="col-md-8">
-                <img src="Img/001.png" style="width:100%;">
+                <img src="Img/001 copy.png" style="width:100%;">
               </div>
             </div>
         </div>
@@ -179,12 +184,14 @@
         <!-- img banner -->
           <div class="section4">
               <div class="content4 container justify-content-center">
-                  <div class="col-md-12 text-center">
+                  <div class="col-md-12 text-center" data-aos="fade-up">
                       <h3 style="padding: 0 2rem;">Be your best self with 
                         Fitpal</h3>
                       <p>Follow your weight, activity and sleep with the free Health Mate app.                      </p>
                       <a href="#">
-                      <button class="btn btn-primary btn-download"> DOWNLOAD NOW </button>
+                     <span class="btn"> 
+                      <img src="Img/Download_on_the_App_Store_Badge_US-UK_wht_092917-01.svg" style="width:160px; border: none; background-color:transparent;">
+                     </span>
                       </a>
                   </div>
               </div>
